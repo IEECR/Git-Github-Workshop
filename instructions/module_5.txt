@@ -1,0 +1,6 @@
+---------- MODULE 5: Create a repository structure ----------
+
+Download sciebo data and put them into repo created in module 4 in a structured way. Add gitignore. Write information into readme.
+
+---------- Steps:
+1. xxx

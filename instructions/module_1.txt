@@ -1,0 +1,38 @@
+---------- MODULE 1: Setting it up ----------
+
+Welcome to the first module.
+
+You will set up everything you need to work with git and Github using VSCode and clone a repository
+using the git command-line interface  (CLI); it means you will work from the terminal.
+
+---------- Steps:
+0. If not done yet: Set up a Github account (https://github.com/).
+1. If not done yet: Install git (https://www.git-scm.com/downloads).
+2. If not done yet: Install VS Code (https://code.visualstudio.com/download).
+3. Connect git and github: Open a terminal and enter following:
+    git config user.email "email_of_your_github_profile"
+    git config user.name "your_github_profile_name"
+4. Find the repository we prepared on Github: https://github.com/IEECR/Github-Workshop
+   There is a green button 'Code', click on it and copy the repositories URL.
+5. In VSCode, open a terminal ('Terminal' tab on top > 'New Termial'), this is from where we will work for now.
+6. First, we need to move in the terminal to the directory where the repository should be saved (find some helpful commands below).
+7. Then, type 'git clone url-to-repo'.
+    A directory with the repository's name will be created in the directory your terminal points to and the repository will be saved there.
+    Note: You can change the name of the directory it is saved to: 'git clone url-to-repo name-you-choose'
+8. Move into your repository's directory and type 'git status'.
+    Note: this gives you an overview of the changes tracked by git.
+9. If you wonder, what the difference is when you download the zip file instead of cloning the repository:
+   Try it (but do not save it in the directory of your repository)!
+   Try the 'git status' command...
+
+
+---------- Helpful links:
+git clone documentation: https://git-scm.com/docs/git-clone
+
+
+---------- Change directory from the terminal:
+    Windows:    'dir' -> list all directories and files in current directory
+                'cd ..' -> move into the parent directory
+                'cd name-of-dir' -> move into a directory that is a subdirectory of the current one
+                'name-of-drive:' -> change to another drive
+    Linux: Bence?

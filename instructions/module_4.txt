@@ -1,0 +1,7 @@
+---------- MODULE 4: Use VS Code git integragion - The easy way ----------
+
+Create repository online, clone it. Add a readme file in VSCode and enter your name, stage, commit, sync.
+
+---------- Steps:
+1. Go to the 'Source Control' tab in the menu bar at the left side of the window,
+   stage the file you changed (small plus sign next to the file name).
