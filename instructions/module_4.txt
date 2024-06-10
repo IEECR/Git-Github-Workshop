@@ -1,7 +1,28 @@
 ---------- MODULE 4: Use VS Code git integragion - The easy way ----------
 
-Create repository online, clone it. Add a readme file in VSCode and enter your name, stage, commit, sync.
+Create a repository online and clone it. Add a readme file in VSCode and enter your name, stage, commit, sync.
+To do that, you will now use the git integration for VSCode, so it will be buttons instead of commands.
 
 ---------- Steps:
-1. Go to the 'Source Control' tab in the menu bar at the left side of the window,
-   stage the file you changed (small plus sign next to the file name).
+1. In the browser, create a new private repository (you did that already in module 3).
+2. Copy the URL of the repository.
+3. In VSCode, open a new window ('File' > 'New Window').
+4. Go to the 'Source Control' tab in the menu bar at the left side of the window.
+   This gives you control over git commands. You can stage files here, commit, etc.
+   Click on 'Clone Repository'.
+   Alternative: after opening the new VSCode window, you also see 'Clone Git Repository...' in the main window and can click on that.
+5. Enter the URL you copied (that points to your remote repository) into the editable text field
+   at the top of the VSCode window and select 'Clone from URL'.
+6. Select a directory, where it should be saved at, open it in VSCode (and trust the author).
+7. If there is not yet a README.md file in your repository, add one.
+8. Write your name into the (newly created or already existing) README.md.
+9. In VSCode, go to the Source Control tab. You see a section 'Changes' and a 'M' behind the README.md.
+   This indicates that a file that is tracked by git has been modified.
+10. Stage the file: click on the small '+' behind the file (to stage this file) or behind 'Changes' (to stage all files).
+    The file now should be listed under 'Staged Changes'
+11. Enter a commit message and click on 'Commit'.
+12. Push the commit by clicking on 'Sync' (this first performs a pull and then push command).
+
+
+---------- Helpful links:
+Git source control in VSCode: https://code.visualstudio.com/docs/sourcecontrol/overview

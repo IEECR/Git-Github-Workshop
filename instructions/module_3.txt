@@ -1,6 +1,6 @@
 ---------- MODULE 3: Remote version control with git ----------
 
-You will create a empty remote repository on github and connect it to your local repository.
+You will create a empty remote repository on github and connect it to your local repository (using a personal access token).
 You will apply changes locally and remotely and broadcast them to the different clones of your repository.
 You will do that using the git command-line interface (CLI); it means you will work from the terminal.
 
@@ -9,10 +9,14 @@ You will do that using the git command-line interface (CLI); it means you will w
     Note: a repository naming convention is to use lower-case letters
           and dashes ('-') instead of spaces or underscores.
     Note: make your repository private. 
-2. On github, move into your repository and copy its URL (should be: https://github.com/YourAccountName/YourRepoName.git).
+2. Generate a personal access token to securley connect to github:
+   On github, got to Settings > Developer Settings > Personal access tokens > Tokens (classic).
+   Click on 'Generate new token' (classic). Enter a short description and check the box for 'repo'. Click 'Generate token'.
+   Save the token somewhere you can find it again.
+    Note: instead of using a personal access token, you could also use a ssh-key (bit more tricky).
 3. Connect the newly created repository on github to your local repository.
    In the terminal, move into your repository from module 2.
-   Type: 'git remote add origin url-of-your-repository'
+   Type: 'git remote add origin https://personal-access-token@github.com/your-gihub-name/repo-name.git'
 4. Now you can transfer the committed files to the remote repository using the 'git push' command.
    In this case you need to specify the branch of the remote repository
    you want to push to (the concept of branches will be treated later, don't worry for now).
@@ -26,21 +30,28 @@ You will do that using the git command-line interface (CLI); it means you will w
           'git fetch' ONLY downloads the changes to your local repository, but does not affect
           the working directory; this is achieved with the merge command. Try 'git status' in between the two steps.
 9. In VSCode (or a text editor), add 3 words starting with D to the file words.txt and save.
-   Also, add 3 words, you associate with the first animal in animals.txt and save.
+    Also, add 3 words, you associate with the first animal in animals.txt and save.
 10. Broadcast only the changes in the words.txt file to the remote repository: stage the file, commit, and push. 
 11. In the browser on github, check if it worked (you maybe need to refresh the site).
-12. In the browser on github, add 3 words you associate with the second animal to animals.txt and commit.
-13. In the terminal, again pull the remote changes. Why is there an error?
+12. In the browser on github, add 3 words you associate with the second animal to animals.txt, stage and commit.
+13. In the terminal, pull the remote changes. Why is there an error?
 14. To handle the situation, you need to decide which changes to keep: the ones from the local or remote repository.
-15. Type:   'git checkout --ours animals.txt' -> to keep local changes (make sure, the file is staged and commited before)
-            'git checkout --theirs animals.txt' -> to keep remote changes
-16. Stage the file (animals.txt) again.
-17. Commit
-18. Pull again from origin.
+15. Keep local changes:     - (remember, the file needs to be staged and commited - but you did that in step 12 already)
+                            - pull
+                            - type 'git checkout --ours animals.txt' into terminal
+                            - stage file again
+                            - commit
+                            - pull
+                            - push
+    Keep remote changes:    - pull
+                            - 'git checkout --theirs animals.txt'
+                            - stage file again
+                            - commit
+                            - pull
 
-19. Open the repository you cloned in module 1 and go to the file 001.txt in the folder /txt-files/.
+16. Open the repository you cloned in module 1 and go to the file 001.txt in the folder /txt-files/.
     Add the answer to the question you find there and save.
-20. Stage, commit, push. What happens?
+17. Stage, commit, push. What happens?
 
 
 
@@ -48,3 +59,6 @@ You will do that using the git command-line interface (CLI); it means you will w
 Managing remote repositories: https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories
 About git fetch: https://www.freecodecamp.org/news/git-pull-remote-branch-how-to-fetch-remote-branches-in-git/
 Some tips on resolving merge conflicts: https://stackoverflow.com/questions/161813/how-do-i-resolve-merge-conflicts-in-a-git-repository
+Some troubleshooting for 'repository not found'-error: https://stackoverflow.com/questions/37813568/git-remote-repository-not-found
+Bonus: Use of ssh key instead of personal access token: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh,
+                                                        https://medium.com/@melvingrooms/using-ssh-to-clone-a-private-hit-repository-9fbe79a589cd

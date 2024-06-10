@@ -20,7 +20,7 @@ You will do that using the git command-line interface (CLI); it means you will w
 7. Check with 'git status'.
 8. You decide, that you also want to add your least favorite animal to animals.txt. Do it and save!
 9. Check with 'git status'. What is the different state of the txt files?
-10. Repeat step 6 to add the new version of the file to the staging area.
+10. Add the new version of the file to the staging area.
 11. Now, lets commit!
     In the terminal, type: 'git commit -m "type your commit message"'
 12. Now, let's go back to words.txt. Add 3 words starting with B and save. 
@@ -33,3 +33,4 @@ You will do that using the git command-line interface (CLI); it means you will w
 ---------- Helpful links:
 The git staging area: https://www.developernation.net/blog/git-internals-part-3-understanding-the-staging-area-in-git/
 Information about resetting to a previous commit: https://www.atlassian.com/git/tutorials/undoing-changes/git-reset
+Bonus: Stashing changes: https://www.atlassian.com/git/tutorials/saving-changes/git-stash#stashing-your-work
