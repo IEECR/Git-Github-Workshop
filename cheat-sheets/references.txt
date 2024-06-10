@@ -1,0 +1,4 @@
+git-cheat-sheet-education.pdf: https://education.github.com/git-cheat-sheet-education.pdf
+SWTM-2088_Atlassian-Git-Cheatsheet.pdf: https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
+git-cheat-sheet.pdf: https://about.gitlab.com/images/press/git-cheat-sheet.pdf
+rebellabs_cheat_sheet: https://www.reddit.com/r/git/comments/5m5fdz/git_cheat_sheet/#lightbox
