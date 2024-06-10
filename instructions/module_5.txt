@@ -1,4 +1,4 @@
----------- MODULE 5: Create a repository structure ----------
+---------- MODULE 5: What makes a good repository ----------
 
 In this module, you will create a repository structure for a bunch of pseudo files representing the types of files
 you find in a research project. You will also create a gitignore file and fill the README.md with sensible information.
