@@ -35,4 +35,8 @@ git clone documentation: https://git-scm.com/docs/git-clone
                 'cd ..' -> move into the parent directory
                 'cd name-of-dir' -> move into a directory that is a subdirectory of the current one
                 'name-of-drive:' -> change to another drive
-    Linux: Bence?
+    Linux:      'pwd' -> shows your current location
+                'ls -l' -> lists the folders and files in the current directory
+                'cd ..' -> move into parent directory
+                'cd name-of-dir' -> move into subdirectory named name-of-dir
+                'cd /absolute/path/to/file' -> move to any folder specified by the absolute path (example: /home/user/Downloads/) 

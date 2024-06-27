@@ -9,7 +9,6 @@ You will do that using the git command-line interface (CLI); it means you will w
           and dashes ('-') instead of spaces or underscores.
 2. Create 2 txt files in your repository directory and name them: animals.txt and words.txt.
        Write the name of your favorite animal into the file animals.txt and save.
-       Write 3 words starting with A into words.txt and save.
 3. In your terminal, move into the newly created directory.
 4. Type 'git init' to turn the directory into a repository that is tracked by git.
 5. Type 'git status' to get an overview of (un)tracked changes in your repository.
@@ -18,15 +17,17 @@ You will do that using the git command-line interface (CLI); it means you will w
    So you want to stage only the file animals.txt (add it to the index/staging area).
    Type: 'git add animals.txt' (remember, your terminal has to point to the repository directory).
 7. Check with 'git status'.
-8. You decide, that you also want to add your least favorite animal to animals.txt. Do it and save!
-9. Check with 'git status'. What is the different state of the txt files?
-10. Add the new version of the file to the staging area.
-11. Now, lets commit!
-    In the terminal, type: 'git commit -m "type your commit message"'
-12. Now, let's go back to words.txt. Add 3 words starting with B and save. 
-13. Stage the file words.txt and check the status.
-14. Repeat step 11 (with a new commit message).
-15. Check the history with 'git log'. It will show you the commits to this repository, starting with the most recent.
+8. Now, lets commit!
+   In the terminal, type: 'git commit -m "type your commit message"'
+   Think about what a good commit message could look like!
+9. You decide, that you also want to add your least favorite animal to animals.txt. Do it and save!
+10. Check with 'git status'.
+11. Type: 'git add *' and check what this command does!
+12. Type: 'git remove words.txt'. What happened?
+13. Commit the file animals.txt with the most recent change to it.
+14. Now, let's go back to words.txt. Add 3 words starting with A and save. 
+15. Stage the file words.txt (check the status) and commit.
+16. Check the history with 'git log'. It will show you the commits to this repository, starting with the most recent.
     Note: use the space key or arrow-down key to move through the list of commits. Use the q key to exit.
 
 
