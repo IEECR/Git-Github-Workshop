@@ -17,10 +17,12 @@ You will do that using the git command-line interface (CLI); it means you will w
 3. Connect the newly created repository on github to your local repository.
    In the terminal, move into your repository from module 2.
    Type: 'git remote add origin https://personal-access-token@github.com/your-gihub-name/repo-name.git'
+   Note: origin is the standard alias for the remote repository, but you could also name it oregano (or any other spice).
 4. Now you can transfer the committed files to the remote repository using the 'git push' command.
-   In this case you need to specify the branch of the remote repository
-   you want to push to (the concept of branches will be treated later, don't worry for now).
-   In the terminal, type: 'git push -u origin master' (try main instead of master if there is an error)
+   The full command is: 'git push -u remote-repository-alias local-branch-name'
+   In this case you need to specify the name of the branch of the local repository
+   you want to push from (the concept of branches will be treated later, don't worry for now).
+   You can see the local branche names with 'git branch'.
 5. In the browser, refresh the site of your repository.
 6. In the browser, check the history of the repository (click on 'commits'; below the repository name, on the right side).
 7. In the browser on github, edit the file words.txt: Write 3 words starting with C and commit.
@@ -31,7 +33,7 @@ You will do that using the git command-line interface (CLI); it means you will w
           the working directory; this is achieved with the merge command. Try 'git status' in between the two steps.
 9. In VSCode (or a text editor), add 3 words starting with D to the file words.txt and save.
     Also, add 3 words, you associate with the first animal in animals.txt and save.
-10. Broadcast only the changes in the words.txt file to the remote repository: stage the file, commit, and push. 
+10. Sync only the changes in the words.txt file in your remote repository: stage the file, commit, and push. 
 11. In the browser on github, check if it worked (you maybe need to refresh the site).
 12. In the browser on github, add 3 words you associate with the second animal to animals.txt, stage and commit.
 13. In the terminal, pull the remote changes. Why is there an error?
