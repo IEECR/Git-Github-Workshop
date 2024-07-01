@@ -5,16 +5,16 @@ You will apply changes locally and remotely and broadcast them to the different 
 You will do that using the Git command-line interface (CLI); it means you will work from the terminal.
 
 ---------- Steps:
-1. In the browser, go to your github account and create your own private repository.
+1. In the browser, go to your Github account and create your own private repository.
     Note: a repository naming convention is to use lower-case letters
           and dashes ('-') instead of spaces or underscores.
     Note: make your repository private. 
-2. Generate a personal access token to securley connect to github:
-   On github, got to Settings > Developer Settings > Personal access tokens > Tokens (classic).
+2. Generate a personal access token to securley connect to Github:
+   On Github, got to Settings > Developer Settings > Personal access tokens > Tokens (classic).
    Click on 'Generate new token' (classic). Enter a short description and check the box for 'repo'. Click 'Generate token'.
    Save the token somewhere you can find it again.
     Note: instead of using a personal access token, you could also use a ssh-key (bit more tricky).
-3. Connect the newly created repository on github to your local repository.
+3. Connect the newly created repository on Github to your local repository.
    In the terminal, move into your repository from module 2.
    Type: 'git remote add origin https://personal-access-token@github.com/your-gihub-name/repo-name.git'
    Note: origin is the standard alias for the remote repository, but you could also name it oregano (or any other spice).
@@ -25,7 +25,7 @@ You will do that using the Git command-line interface (CLI); it means you will w
    You can see the local branche names with 'git branch'.
 5. In the browser, refresh the site of your repository.
 6. In the browser, check the history of the repository (click on 'commits'; below the repository name, on the right side).
-7. In the browser on github, edit the file words.txt: Write 3 words starting with C and commit.
+7. In the browser on Github, edit the file words.txt: Write 3 words starting with C and commit.
 8. To sync your local repository with the remote version, type 'git pull' or 'git pull --all'
     Note: the pull command actually performes two actions: a fetch and a merge action.
           You could do the two steps separately by using first 'git fetch' and then 'git merge'.
@@ -34,8 +34,8 @@ You will do that using the Git command-line interface (CLI); it means you will w
 9. In VSCode (or a text editor), add 3 words starting with D to the file words.txt and save.
     Also, add 3 words, you associate with the first animal in animals.txt and save.
 10. Sync only the changes in the words.txt file in your remote repository: stage the file, commit, and push. 
-11. In the browser on github, check if it worked (you maybe need to refresh the site).
-12. In the browser on github, add 3 words you associate with the second animal to animals.txt, stage and commit.
+11. In the browser on Github, check if it worked (you maybe need to refresh the site).
+12. In the browser on Github, add 3 words you associate with the second animal to animals.txt, stage and commit.
 13. In the terminal, pull the remote changes. Why is there an error?
 14. To handle the situation, you need to decide which changes to keep: the ones from the local or remote repository.
 15. Keep local changes:     - (remember, the file needs to be staged and commited - but you did that in step 12 already)
@@ -59,7 +59,7 @@ You will do that using the Git command-line interface (CLI); it means you will w
 
 ---------- Helpful links:
 Managing remote repositories: https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories
-About git fetch: https://www.freecodecamp.org/news/git-pull-remote-branch-how-to-fetch-remote-branches-in-git/
+About Git fetch: https://www.freecodecamp.org/news/git-pull-remote-branch-how-to-fetch-remote-branches-in-git/
 Some tips on resolving merge conflicts: https://stackoverflow.com/questions/161813/how-do-i-resolve-merge-conflicts-in-a-git-repository
 Some troubleshooting for 'repository not found'-error: https://stackoverflow.com/questions/37813568/git-remote-repository-not-found
 Bonus: Use of ssh key instead of personal access token: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh,

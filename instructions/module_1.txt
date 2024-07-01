@@ -6,9 +6,10 @@ You will set up everything you need to work with Git and Github using VSCode and
 using the Git command-line interface  (CLI); it means you will work from the terminal.
 
 ---------- Steps:
+0. If not done yet: Enable 2-Factor Authentification or create a SSH key pair
 1. If not done yet: Install git (https://www.git-scm.com/downloads).
 2. If not done yet: Install VS Code (https://code.visualstudio.com/download).
-3. Connect git and github: Open a terminal and enter following:
+3. Connect git and Github: Open a terminal and enter following:
     git config user.email "email_of_your_github_profile"
     git config user.name "your_github_profile_name"
 4. Find the repository we prepared on Github: https://github.com/IEECR/Github-Workshop
@@ -26,7 +27,10 @@ using the Git command-line interface  (CLI); it means you will work from the ter
 
 
 ---------- Helpful links:
-git clone documentation: https://git-scm.com/docs/git-clone
+2-Factor Authentification for Github:https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication#configuring-two-factor-authentication-using-a-totp-app
+Generate and add a new SSH key: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh,
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+Git clone documentation: https://git-scm.com/docs/git-clone
 
 
 ---------- Change directory from the terminal:

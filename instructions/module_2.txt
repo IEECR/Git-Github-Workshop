@@ -33,10 +33,10 @@ You will do that using the Git command-line interface (CLI); it means you will w
 18. Correct the mistake, stage, and commit again.
 19. Check the history with 'git log'. It will show you the commits to this repository, starting with the most recent.
     Note: use the space key or arrow-down key to move through the list of commits. Use the q key to exit.
-    Can you figure out what git revert does?
+    Can you figure out what 'git revert' does?
 
 
 ---------- Helpful links:
-The git staging area: https://www.developernation.net/blog/git-internals-part-3-understanding-the-staging-area-in-git/
+The Git staging area: https://www.developernation.net/blog/git-internals-part-3-understanding-the-staging-area-in-git/
 Information about resetting to a previous commit: https://www.atlassian.com/git/tutorials/undoing-changes/git-reset
 Bonus: Stashing changes: https://www.atlassian.com/git/tutorials/saving-changes/git-stash#stashing-your-work

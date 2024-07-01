@@ -9,12 +9,12 @@ you find in a research project. You will also create a gitignore file and fill t
 2. Create different directories and sort the files into them.
    Which repository structure makes the most sense to you?
 3. Create a gitignore file
-   In science projects, there are often data of huge size that you do not want to track with git.
+   In science projects, there are often data of huge size that you do not want to track with Git.
    Furthermore, auxiliary files that are generated when writing code for example, you ideally do not want to track.
    This is done using a gitignore file. Create a new file and name it '.gitignore' (no extension!)
 4. Now you can enter all paths to directories and files that should be ignored and save. Stage, Commit, Push.
     Note: there are good templates for gitignore files for different application cases (see links below);
-          when creating a github repository online, you can select a template and the gitignore file is automatically created.
+          when creating a Github repository online, you can select a template and the gitignore file is automatically created.
     Note: if you want to add files/directories to the gitignore file that you had already staged and commited,
           this is a bit more complicated; first type 'git rm --chached file-or-folder-to-add-to-gitignore', then commit.
 5. Edit the README.md and enter all important information. What do you think should be in it? Stage, commit, push.
