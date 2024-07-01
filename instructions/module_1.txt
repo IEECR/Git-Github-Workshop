@@ -6,7 +6,7 @@ You will set up everything you need to work with Git and Github using VSCode and
 using the Git command-line interface  (CLI); it means you will work from the terminal.
 
 ---------- Steps:
-0. If not done yet: Enable 2-Factor Authentification or create a SSH key pair
+0. If not done yet: Enable 2-Factor Authentification or create a SSH key pair.
 1. If not done yet: Install git (https://www.git-scm.com/downloads).
 2. If not done yet: Install VS Code (https://code.visualstudio.com/download).
 3. Connect git and Github: Open a terminal and enter following:
