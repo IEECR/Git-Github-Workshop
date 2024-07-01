@@ -1,7 +1,7 @@
----------- MODULE 4: Use VS Code git integragion - The easy way ----------
+---------- MODULE 4: Use VS Code Git integragion - The easy way ----------
 
 Create a repository online and clone it. Add a readme file in VSCode and enter your name, stage, commit, sync.
-To do that, you will now use the git integration for VSCode, so it will be buttons instead of commands.
+To do that, you will now use the Git integration for VSCode, so it will be buttons instead of commands.
 
 ---------- Steps:
 1. In the browser, create a new private repository (you did that already in module 3).
@@ -26,3 +26,4 @@ To do that, you will now use the git integration for VSCode, so it will be butto
 
 ---------- Helpful links:
 Git source control in VSCode: https://code.visualstudio.com/docs/sourcecontrol/overview
+Auto fetch in VS Code: https://code.visualstudio.com/docs/sourcecontrol/overview#_remotes

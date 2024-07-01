@@ -1,8 +1,8 @@
----------- MODULE 3: Remote version control with git ----------
+---------- MODULE 3: Remote version control with Git & Github ----------
 
-You will create a empty remote repository on github and connect it to your local repository (using a personal access token).
+You will create a empty remote repository on Github and connect it to your local repository (using a personal access token).
 You will apply changes locally and remotely and broadcast them to the different clones of your repository.
-You will do that using the git command-line interface (CLI); it means you will work from the terminal.
+You will do that using the Git command-line interface (CLI); it means you will work from the terminal.
 
 ---------- Steps:
 1. In the browser, go to your github account and create your own private repository.

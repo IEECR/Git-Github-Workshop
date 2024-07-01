@@ -2,11 +2,10 @@
 
 Welcome to the first module.
 
-You will set up everything you need to work with git and Github using VSCode and clone a repository
-using the git command-line interface  (CLI); it means you will work from the terminal.
+You will set up everything you need to work with Git and Github using VSCode and clone a repository
+using the Git command-line interface  (CLI); it means you will work from the terminal.
 
 ---------- Steps:
-0. If not done yet: Set up a Github account (https://github.com/).
 1. If not done yet: Install git (https://www.git-scm.com/downloads).
 2. If not done yet: Install VS Code (https://code.visualstudio.com/download).
 3. Connect git and github: Open a terminal and enter following:
