@@ -16,9 +16,13 @@ All prerequisites for the workshop are listed below. Furthermore, no coding skil
 Session 1 encompasses following 5 modules:
 
     Module 1    Setting it up (10 min)
+
     Module 2	Local version control with Git (30 min)
+
     Module 3	Remote version control with Git & Github (30 min) 
+
     Module 4	Use Visual Studio Code Git integration (15 min)
+
     Module 5	What makes a good repository (30 min)
 
 
