@@ -13,7 +13,7 @@ All prerequisites for the workshop are listed below. Furthermore, no coding skil
 
 
 ------------------------------------------
-Session 1 encompasses following 5 modules:
+**Session 1** encompasses following 5 modules:
 - Module 1    Setting it up (10 min)
 - Module 2	Local version control with Git (30 min)
 - Module 3	Remote version control with Git & Github (30 min) 
@@ -22,7 +22,7 @@ Session 1 encompasses following 5 modules:
 
 
 ------------------------------------------
-Prerequisites:
+**Prerequisites:**
 - Computer with internet connection
 - Github account: https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home
 - Enable 2-Factor Authentication (note: this can be done in multiple ways, alternatively you can use a SSH key pair, see Github doc)
