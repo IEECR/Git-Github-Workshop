@@ -29,8 +29,9 @@ You will do that using the Git command-line interface (CLI); it means you will w
 8. To sync your local repository with the remote version, type 'git pull' or 'git pull --all'
     Note: the pull command actually performes two actions: a fetch and a merge action.
           You could do the two steps separately by using first 'git fetch' and then 'git merge'.
-          'git fetch' ONLY downloads the changes to your local repository, but does not affect
-          the working directory; this is achieved with the merge command. Try 'git status' in between the two steps.
+          'git fetch' ONLY downloads the changes to your local repository; these changes have still to be merged with
+          the current state of your local repository, this is achieved with the merge command (here, the working tree is updated as well).
+          Try 'git status' in between the two steps.
 9. In VSCode (or a text editor), add 3 words starting with D to the file words.txt and save.
     Also, add 3 words, you associate with the first animal in animals.txt and save.
 10. Sync only the changes in the words.txt file in your remote repository: stage the file, commit, and push. 
