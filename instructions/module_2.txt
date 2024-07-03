@@ -23,7 +23,7 @@ You will do that using the Git command-line interface (CLI); it means you will w
 9. You decide, that you also want to add your least favorite animal to animals.txt. Do it and save!
 10. Check with 'git status'.
 11. Type: 'git add *' and check what this command does!
-12. Type: 'git remove words.txt'. What happened?
+12. Type: 'git rm words.txt'. What happened?
 13. Commit the file animals.txt with the most recent change to it.
 14. Now, let's go back to words.txt. Add 3 words starting with A and intentionally misspell at least one. Save. 
 15. Forget that you did a spelling mistake, stage the file (check the status) and commit.
