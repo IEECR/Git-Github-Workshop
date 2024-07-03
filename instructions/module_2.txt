@@ -38,5 +38,6 @@ You will do that using the Git command-line interface (CLI); it means you will w
 
 ---------- Helpful links:
 The Git staging area: https://www.developernation.net/blog/git-internals-part-3-understanding-the-staging-area-in-git/
-Information about resetting to a previous commit: https://www.atlassian.com/git/tutorials/undoing-changes/git-reset
+Information about reverting to a previous commit: https://www.atlassian.com/git/tutorials/undoing-changes/git-revert
+Undoing things in Git: https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things (Note: check the commit --amend option)
 Bonus: Stashing changes: https://www.atlassian.com/git/tutorials/saving-changes/git-stash#stashing-your-work
