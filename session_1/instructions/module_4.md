@@ -30,7 +30,7 @@ For more information about installing the prerequisits, consult the README.md. <
 &emsp; &emsp; - Write your name and the date into the file.<br />
 
 4. **Use VSCode's Source Control Tab:** <br />
-*Note:* In the Source Control tab (third item in toolbar at left side of VSCode window), you see a section 'Changes' and a 'M' behind the README.md. This indicates that a file that is tracked by Git has been modified. <br />
+*Note:* In the Source Control tab (third item in toolbar at left side of VSCode window), you see a section *Changes* and a *M* behind the README.md. This indicates that a file that is tracked by Git has been modified. <br />
 &emsp; &emsp; - To stage specific files, click on the *+* behind the file(s).<br />
 &emsp; &emsp; - To commit, enter a commit message and click on *Commit*. <br />
 &emsp; &emsp; - To push to the remote repository, click on *Sync*. <br />
