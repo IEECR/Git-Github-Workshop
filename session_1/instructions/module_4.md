@@ -8,7 +8,7 @@ For more information about installing the prerequisits, consult the README.md. <
 
 ## Steps:
 1. **Create a new repository on Github.com:** <br />
-*How:* - Go to [www.github.com](https://github.com/).<br />
+*How:* - Create a new repository on [www.github.com](https://github.com/).<br />
 &emsp; &emsp; - Name it as you like and make it private. <br />
 &emsp; &emsp; - Copy the repositories URL. <br />
 
