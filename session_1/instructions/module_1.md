@@ -10,17 +10,13 @@ Furthermore, you will clone your first repository from Github.
 For more information about installing the prerequisits, consult the README.md. <br />
 
 ## Steps:
-1. **Find the repository** we prepared on Github:<br />
-[Git-Github-Workshop](https://github.com/IEECR/Git-Github-Workshop/tree/main) <br />
-Move into the folder session_1 > instructions and open module_1.md. <br />
-
-2. **Open a folder** in **VSCode** in which you want to work during the workshop. <br />
+1. **Open a folder** in **VSCode** in which you want to work during the workshop. <br />
 *How:* *File* tab on top > *Open Folder...*
 
-3. **Open a terminal** in VSCode. (You could also do this in a terminal outside of VSCode) <br />
+2. **Open a terminal** in VSCode. (You could also do this in a terminal outside of VSCode) <br />
 *How:* *Terminal* tab on top > *New Termial*
 
-4. **Create folders from the terminal:** <br />
+3. **Create folders from the terminal:** <br />
 *How:* Using only the terminal, check what content you find in your current folder and create a new folder named *workshop-playground*. Move into it and create two new folders named *zip-repo* and *cloned-repo*. <br />
 
 | Function                   | Windows            | Linux              |
@@ -34,12 +30,12 @@ Move into the folder session_1 > instructions and open module_1.md. <br />
 | Create a new directory     | mkdir new-dir-name | mkdir new-dir-name |
 | Remove a directory         | rmdir -p dir-name  | rm -r dir-name     |
 
-5. **Check if Git is working**: <br />
+4. **Check if Git is working**: <br />
 *How:* Type into the terminal: <br />
 &emsp; &emsp; - <span style="color:green"> git</span>: It should display an overview of possible commands. <br />
 &emsp; &emsp; - <span style="color:green"> git \-\-version</span>: It should display the version of git you have.
 
-6. **Connect git and Github:** <br />
+5. **Connect git and Github:** <br />
 *How:* Type into the terminal: <br />
 <span style="color:green"> git config user.email "email_of_your_github_profile"</span>  <br />
 <span style="color:green"> git config user.name "your_github_profile_name"</span>  <br />
