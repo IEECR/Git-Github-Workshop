@@ -18,8 +18,8 @@ For more information about installing the prerequisits, consult the README.md. <
 &emsp; &emsp; - Click on *Clone Repository*.<br />
 &emsp; &emsp; - Enter the URL into the text field at the top of the VSCode window. <br />
 &emsp; &emsp; - Select *Clone from URL*. <br />
-&emsp; &emsp; - Save it in the folder *workshop-playground*.
-&emsp; &emsp; - Open the repository and trust the authors if asked.
+&emsp; &emsp; - Save it in the folder *workshop-playground*. <br />
+&emsp; &emsp; - Open the repository and trust the authors if asked. <br />
 *Note:* Alternatively, you can select *Clone Git Repository...* in the main window right after opening a new VSCode window.
  <br />
 
