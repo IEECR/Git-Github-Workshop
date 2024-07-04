@@ -24,7 +24,6 @@ All prerequisites for the workshop are listed below. Furthermore, no coding skil
 ------------------------------------------
 **Prerequisites:**
 - Computer with internet connection
-- Github account: https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home
 - Enable 2-Factor Authentication (note: this can be done in multiple ways, alternatively you can use a SSH key pair, see Github doc)
     --> you need to download an app (e.g. Authy) on your mobile
     --> then follow the steps here: https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication#configuring-two-factor-authentication-using-a-totp-app
