@@ -6,7 +6,7 @@ There are two ways to connect a local and remote repository, depending on what e
 
 The first case is the more common one and you have done that in module 1, so we will not repeat it here. The second case can be useful if you have e.g. a folder with a lot of content that you want to turn into a Github repository without copying/moving everything. In this case you would turn it into a local Git repository (as we did in Module 2), track all files, and then connect it to a remote repository. We will do this now... <br />
 
-**Prerequisites:** VSCode, Git, Github account, a local Git repository called *local-repo*. <br />
+**Prerequisites:** VSCode, Git, Github account, a local Git repository called *local-repo* with two .txt files named *animals.txt* and *words.txt*. <br />
 For more information about installing the prerequisits, consult the README.md. <br />
 
 ## Steps:
