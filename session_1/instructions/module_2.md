@@ -52,7 +52,7 @@ For more information about installing the prerequisits, consult the README.md. <
 &emsp; &emsp; - Type: <span style="color:green"> git commit -m "type your commit message"</span>. <br />
 
 10. **Check the commit history:** <br />
-*How:* - Type: <span style="color:green"> git log"</span>. <br />
+*How:* - Type: <span style="color:green"> git log</span>. <br />
 &emsp; &emsp; - Can you figure out what git revert does? <br />
 *Note:* git log shows you the commits to this repository, starting with the most recent one. Use the space key or arrow-down key to move through the list of commits. Use the q key to exit. <br />
 <br />

@@ -11,7 +11,7 @@ For more information about installing the prerequisits, consult the README.md. <
 
 ## Steps:
 1. **Find the repository** we prepared on Github:<br />
-[(Git-Github-Workshop](https://github.com/IEECR/Git-Github-Workshop/tree/main) <br />
+[Git-Github-Workshop](https://github.com/IEECR/Git-Github-Workshop/tree/main) <br />
 Move into the folder session_1 > instructions and open module_1.md. <br />
 
 2. **Open a folder** in **VSCode** in which you want to work during the workshop. <br />

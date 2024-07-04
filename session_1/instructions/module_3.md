@@ -44,16 +44,16 @@ For more information about installing the prerequisits, consult the README.md. <
 *How:* - In your terminal, type: <span style="color:green"> git pull remote-repository-alias local-branch-name</span>. <br />
 *Note:* The pull command actually performes two operations. You could perform them separately by using <span style="color:green"> git fetch</span>, this only downloads any changes from the remote repository but does not affect the current state of your local repository, and <span style="color:green"> git merge</span>, which does the merging magic and updates your working tree as well. <br />
 
-6. **Create conflicting commits:** <br />
+7. **Create conflicting commits:** <br />
 *How:* - Write 3 words starting with C into the file *words.txt* and save (do it locally, not on Github). <br />
 &emsp; &emsp; - Stage & commit the file. <br />
-&emsp; &emsp; - Online, edit *words.txt*, enter 3 words starting with D and commit.<br />
+&emsp; &emsp; - Online, edit *words.txt*: enter 3 words starting with D and commit.<br />
 &emsp; &emsp; - In your terminal, type: <span style="color:green"> git fetch</span>. <br />
 &emsp; &emsp; - Check with <span style="color:green"> git status</span>. <br />
 &emsp; &emsp; - Try: <span style="color:green"> git merge</span>. <br />
 
-7. **Handle a merge conflict:** Decide which changes to keep!<br />
-*Note:* It is important that you have committed your local changes, and performed a pull action before you proceed (step 6). <br />
+8. **Handle a merge conflict:** Decide which changes to keep!<br />
+*Note:* It is important that you have committed your local changes, and performed a pull action before you proceed (step 7). <br />
 *How:* Keep local changes: <br />
 &emsp; &emsp; - <span style="color:green"> git checkout --ours name-of-file</span>. <br />
 &emsp; &emsp; - Stage it. <br />
@@ -64,7 +64,7 @@ For more information about installing the prerequisits, consult the README.md. <
 &emsp; &emsp; - Stage it. <br />
 &emsp; &emsp; - Commit it. <br />
 
-8. **Push to anothers remote repository:** <br />
+9. **Push to anothers remote repository:** <br />
 *How:* - Open the repository you cloned in module 1 (*Git-Github-Workshop*). <br />
 &emsp; &emsp; - Open the file 001.txt in the folder *txt-files* in *session_1*. <br />
 &emsp; &emsp; - Answer the question in it and save. <br />
