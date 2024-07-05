@@ -25,7 +25,7 @@ For more information about installing the prerequisits, consult the README.md. <
 *Note:* Files/ folders and changes to them are tracked by Git when they have been added to the index/ staging area. <br />
 *How:* - Type: <span style="color:green"> git add *</span>. <br />
 &emsp; &emsp; - Check with <span style="color:green"> git status</span>. What happened? <br />
-&emsp; &emsp; - Type: <span style="color:green"> git rm words.txt</span>.  What happened? <br />
+&emsp; &emsp; - Type: <span style="color:green"> git rm --cached words.txt</span>.  What happened? <br />
 
 5. **Commit the staged file:** <br />
 *Note:* In a commit, all staged files are commited at once. For every commit you have to provide a commit-message. Think about what a good commit message could look like! <br />
