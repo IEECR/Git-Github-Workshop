@@ -12,7 +12,7 @@ For more information about installing the prerequisits, consult the README.md. <
 ## Steps:
 1. **Open a folder** in **VSCode** in which you want to work during the workshop. <br />
 *How:* - *File* tab on top > *Open Folder...* <br />
-&emsp; &emsp; - trust the authors when asked. <br />
+&emsp; &emsp; - Trust the authors when asked. <br />
 
 3. **Open a terminal** in VSCode. (You could also do this in a terminal outside of VSCode) <br />
 *How:* *Terminal* tab on top > *New Termial*
