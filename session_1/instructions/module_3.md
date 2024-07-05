@@ -27,7 +27,7 @@ For more information about installing the prerequisits, consult the README.md. <
 *Note:* You need to specify the name of the branch of the local repository you want to push from (the concept of branches will be treated in a later session, don't worry for now). <br />
 *How:* - In the terminal, type: <span style="color:green"> git branch</span>. <br />
 &emsp; &emsp; - Type: <span style="color:green"> git push -u remote-repository-alias local-branch-name</span>. <br />
-&emsp; &emsp; - Online, refresh the page of your repository.
+&emsp; &emsp; - Online, refresh the page of your repository.<br />
 *Note:* After specifying it the first time, you can use the short form <span style="color:green"> git push</span>. <br />
 
 4. **Check commit history online:** <br />
@@ -36,15 +36,16 @@ For more information about installing the prerequisits, consult the README.md. <
 &emsp; &emsp; - Compare to what you see with <span style="color:green"> git log</span> in your terminal. <br />
 
 5. **Edit *words.txt* on Github:** <br />
-*How:* - Online, go to your repository and select the file. <br />
+*How:* - Online, go to your repository and select the file *words.txt*. <br />
 &emsp; &emsp; - Click on the pencil on the right side of the window.<br />
 &emsp; &emsp; - Enter 3 words starting with B and commit. <br />
 
 6. **Pull changes from the remote to the local repository:** <br />
-*How:* - In your terminal, type: <span style="color:green"> git pull remote-repository-alias local-branch-name</span>. <br />
+*How:* - In your terminal, type: <span style="color:green"> git pull </span>.
+If this makes problems, try: <span style="color:green"> git pull remote-repository-alias local-branch-name</span>. <br />
 *Note:* The pull command actually performes two operations. You could perform them separately by using <span style="color:green"> git fetch</span>, this only downloads any changes from the remote repository but does not affect the current state of your local repository, and <span style="color:green"> git merge</span>, which does the merging magic and updates your working tree as well. <br />
 
-7. **Create conflicting commits:** <br />
+8. **Create conflicting commits:** <br />
 *How:* - Write 3 words starting with C into the file *words.txt* and save (do it locally, not on Github). <br />
 &emsp; &emsp; - Stage & commit the file. <br />
 &emsp; &emsp; - Online, edit *words.txt*: enter 3 words starting with D and commit.<br />
@@ -52,7 +53,7 @@ For more information about installing the prerequisits, consult the README.md. <
 &emsp; &emsp; - Check with <span style="color:green"> git status</span>. <br />
 &emsp; &emsp; - Try: <span style="color:green"> git merge</span>. <br />
 
-8. **Handle a merge conflict:** Decide which changes to keep!<br />
+9. **Handle a merge conflict:** Decide which changes to keep!<br />
 *Note:* It is important that you have committed your local changes, and performed a pull action before you proceed (step 7). <br />
 *How:* Keep local changes: <br />
 &emsp; &emsp; - <span style="color:green"> git checkout --ours name-of-file</span>. <br />
@@ -64,7 +65,7 @@ For more information about installing the prerequisits, consult the README.md. <
 &emsp; &emsp; - Stage it. <br />
 &emsp; &emsp; - Commit it. <br />
 
-9. **Push to anothers remote repository:** <br />
+10. **Push to anothers remote repository:** <br />
 *How:* - Open the repository you cloned in module 1 (*Git-Github-Workshop*). <br />
 &emsp; &emsp; - Open the file 001.txt in the folder *txt-files* in *session_1*. <br />
 &emsp; &emsp; - Answer the question in it and save. <br />
