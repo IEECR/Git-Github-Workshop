@@ -55,6 +55,7 @@ For more information about installing the prerequisits, consult the README.md. <
 &emsp; &emsp; - Click on the green *Code* button and copy the repository's URL. <br />
 &emsp; &emsp; - In the terminal, move to *workshop-playground*. <br />
 &emsp; &emsp; - Type into the terminal: <span style="color:green"> git clone url-to-repo cloned-repo </span> <br />
+&emsp; &emsp; - You may be asked to authenticate with Github. If you can do it by logging in via the browser, do that. (Otherwise, find some information about Access Tokens below). 
 *Note:* This will clone the repository you indicate to the folder you indicate (in our case *cloned-repo*). You can also leave away the folder name, then a folder with the repository's name is created automatically. <br />
 
 8. **Check if the cloning worked:** <br />
@@ -74,5 +75,7 @@ For more information about installing the prerequisits, consult the README.md. <
 - 2-Factor Authentification for Github:https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication#configuring-two-factor-authentication-using-a-totp-app
 - Generate and add a new SSH key: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh,
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+- Access Tokens: https://docs.catalyst.zoho.com/en/tutorials/githubbot/java/generate-personal-access-token/,
+- https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
 - Git clone documentation: https://git-scm.com/docs/git-clone
 - Updating Git: https://phoenixnap.com/kb/how-to-update-git
