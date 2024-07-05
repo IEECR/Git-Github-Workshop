@@ -5,7 +5,7 @@ By Bence Mitlasoczki & Lena J. Gschossmann
 
 ------------------------------------------
 This repository contains material for a workshop teaching the basic usage of the version control system (VCS) Git and Github for scientists.
-It has been prepared for an in-person workshop but is self-explanatory and can be followed autonomosly.
+It has been prepared for an in-person workshop but is self-explanatory and can be followed autonomosly. In that case, it is recommended to check out the slides corresponding to a module first and then follow the module's instructions.
 
 Note: The workshop is tailored for the use of Visual Studio Code. However, most of the modules require working with Git's command-line interface and could thus be done using another IDE or the git bash terminal.
 
