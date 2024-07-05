@@ -25,7 +25,7 @@ All prerequisites for the workshop are listed below. Furthermore, no coding skil
 **Prerequisites:**
 - Computer with internet connection
 - Enable 2-Factor Authentication (note: this can be done in multiple ways, alternatively you can use a SSH key pair, see Github doc)
-    --> you need to download an app (e.g. Authy) on your mobile
+    --> you need to download an app on your mobile
     --> then follow the steps here: https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication#configuring-two-factor-authentication-using-a-totp-app
 - Download and install Visual Studio Code (VSC): https://code.visualstudio.com/download
 - Download and install Git: https://git-scm.com/downloads (during the installation, the default options should be fine)
