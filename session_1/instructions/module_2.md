@@ -45,7 +45,7 @@ For more information about installing the prerequisits, consult the README.md. <
 8. **Undo a pervious commit:** <br />
 *How:* - Delete the file *words.txt*. <br />
 &emsp; &emsp; - Stage all files (<span style="color:green"> git add *</span>) and commit. <br />
-&emsp; &emsp; - To undo the last commit and recover the file, type: <span style="color:green"> git revert /-/-no-edit HEAD</span>. <br /> <br />
+&emsp; &emsp; - To undo the last commit and recover the file, type: <span style="color:green"> git revert \-\-no-edit HEAD</span>. <br />
 &emsp; &emsp; - Check with <span style="color:green"> git status</span>. <br />
 
 9. **Edit *words.txt*, stage, commit:** <br />
