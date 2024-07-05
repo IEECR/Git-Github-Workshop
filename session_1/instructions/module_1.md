@@ -55,7 +55,8 @@ For more information about installing the prerequisits, consult the README.md. <
 &emsp; &emsp; - Click on the green *Code* button and copy the repository's URL. <br />
 &emsp; &emsp; - In the terminal, move to *workshop-playground*. <br />
 &emsp; &emsp; - Type into the terminal: <span style="color:green"> git clone url-to-repo cloned-repo </span> <br />
-&emsp; &emsp; - If you have to authenticate with Github and can do it via logging in in the browser, do that. (Otherwise, find some information about Access Tokens below). <br />
+&emsp; &emsp; - If you have to authenticate with Github and can do it via logging in in the browser, do that. <br />
+&emsp; &emsp; (Otherwise, find some information about Access Tokens below). <br />
 *Note:* This will clone the repository you indicate to the folder you indicate (in our case *cloned-repo*). You can also leave away the folder name, then a folder with the repository's name is created automatically. <br />
 
 8. **Check if the cloning worked:** <br />
