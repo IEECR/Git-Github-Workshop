@@ -39,8 +39,8 @@ For more information about installing the prerequisits, consult the README.md. <
 
 7. **Edit *words.txt*, stage, commit:** <br />
 *How:* - Write 3 words starting with A into the file and misspell (at least) one intentionally, save. <br />
-&emsp; &emsp; - Stage the file: <span style="color:green"> git add name-of-file</span>. <br />
-&emsp; &emsp; - Type: <span style="color:green"> git commit -m "type your commit message"</span>. <br />
+&emsp; &emsp; - Stage the file. <br />
+&emsp; &emsp; - Commit the file. <br />
 
 8. **Undo a pervious commit:** <br />
 *How:* - Delete the file *words.txt*. <br />
