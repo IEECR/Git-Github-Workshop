@@ -18,7 +18,7 @@ For more information about installing the prerequisits, consult the README.md. <
 *How:* *Terminal* tab on top > *New Termial*
 
 4. **Create folders from the terminal:** <br />
-*How:* Using only the terminal, check what content you find in your current folder. <br />
+*How:* - Using only the terminal, check what content you find in your current folder. <br />
 &emsp; &emsp; - Create a new folder named *workshop-playground*. <br />
 &emsp; &emsp; - Move into it. <br />
 &emsp; &emsp; - Create two new folders named *zip-repo* and *cloned-repo*. <br />
