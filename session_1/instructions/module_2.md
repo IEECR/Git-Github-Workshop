@@ -44,16 +44,17 @@ For more information about installing the prerequisits, consult the README.md. <
 
 8. **Undo a pervious commit:** <br />
 *How:* - Delete the file *words.txt*. <br />
-&emsp; &emsp; - Stage all files (<span style="color:green"> git add *</span>) and commit. <br />
+&emsp; &emsp; - Stage all files (<span style="color:green"> git add *</span>).<br />
+&emsp; &emsp; - Commit. <br />
 &emsp; &emsp; - To undo the last commit and recover the file, type: <span style="color:green"> git revert \-\-no-edit HEAD</span>. <br />
 &emsp; &emsp; - Check with <span style="color:green"> git status</span>. <br />
 
-9. **Edit *words.txt*, stage, commit:** <br />
+10. **Edit *words.txt*, stage, commit:** <br />
 *How:* - Write 3 words starting with A into the file (this time correctly) and save. <br />
 &emsp; &emsp; - Stage the file. <br />
 &emsp; &emsp; - Commit the file. <br />
 
-10. **Check the commit history:** <br />
+11. **Check the commit history:** <br />
 *How:* - Type: <span style="color:green"> git log</span>. <br />
 &emsp; &emsp; - Can you figure out what git revert does? <br />
 *Note:* git log shows you the commits to this repository, starting with the most recent one. Use the space key or arrow-down key to move through the list of commits. Use the q key to exit. <br />
