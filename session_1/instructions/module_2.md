@@ -38,12 +38,14 @@ For more information about installing the prerequisits, consult the README.md. <
 &emsp; &emsp; - Type: <span style="color:green"> git commit -m "type your commit message"</span>. <br />
 
 7. **Edit *words.txt*, stage, commit:** <br />
-*How:* - Write 3 words starting with A into the file and misspell one of them, save. <br />
+*How:* - Write 3 words starting with A into the file and save. <br />
 &emsp; &emsp; - Stage the file: <span style="color:green"> git add name-of-file</span>. <br />
 &emsp; &emsp; - Type: <span style="color:green"> git commit -m "type your commit message"</span>. <br />
 
 8. **Undo a pervious commit:** <br />
-*How:* - Type: <span style="color:green"> git revert HEAD</span>. <br />
+*How:* - Delete the file *words.txt*. <br />
+&emsp; &emsp; - Stage all files (<span style="color:green"> git add *</span>) and commit. <br />
+&emsp; &emsp; - To undo the last commit and recover the file, type: <span style="color:green"> git revert /-/-no-edit HEAD</span>. <br /> <br />
 &emsp; &emsp; - Check with <span style="color:green"> git status</span>. <br />
 
 9. **Edit *words.txt*, stage, commit:** <br />
