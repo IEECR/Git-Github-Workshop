@@ -11,12 +11,13 @@ For more information about installing the prerequisits, consult the README.md. <
 
 ## Steps:
 1. **Open a folder** in **VSCode** in which you want to work during the workshop. <br />
-*How:* *File* tab on top > *Open Folder...*
+*How:* - *File* tab on top > *Open Folder...* <br />
+&emsp; &emsp; - trust the authors when asked. <br />
 
-2. **Open a terminal** in VSCode. (You could also do this in a terminal outside of VSCode) <br />
+3. **Open a terminal** in VSCode. (You could also do this in a terminal outside of VSCode) <br />
 *How:* *Terminal* tab on top > *New Termial*
 
-3. **Create folders from the terminal:** <br />
+4. **Create folders from the terminal:** <br />
 *How:* Using only the terminal, check what content you find in your current folder and create a new folder named *workshop-playground*. Move into it and create two new folders named *zip-repo* and *cloned-repo*. <br />
 
 | Function                   | Windows            | Linux              |
