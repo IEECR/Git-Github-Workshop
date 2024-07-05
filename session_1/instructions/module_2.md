@@ -50,8 +50,8 @@ For more information about installing the prerequisits, consult the README.md. <
 
 9. **Edit *words.txt*, stage, commit:** <br />
 *How:* - Write 3 words starting with A into the file (this time correctly) and save. <br />
-&emsp; &emsp; - Stage the file: <span style="color:green"> git add name-of-file</span>. <br />
-&emsp; &emsp; - Type: <span style="color:green"> git commit -m "type your commit message"</span>. <br />
+&emsp; &emsp; - Stage the file. <br />
+&emsp; &emsp; - Commit the file. <br />
 
 10. **Check the commit history:** <br />
 *How:* - Type: <span style="color:green"> git log</span>. <br />
