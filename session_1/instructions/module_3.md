@@ -69,7 +69,9 @@ If this makes problems, try: <span style="color:green"> git pull remote-reposito
 *How:* - Open the repository you cloned in module 1 (*Git-Github-Workshop*). <br />
 &emsp; &emsp; - Open the file 001.txt in the folder *txt-files* in *session_1*. <br />
 &emsp; &emsp; - Answer the question in it and save. <br />
-&emsp; &emsp; - Stage, commit, push. What happens? <br />
+&emsp; &emsp; - Stage it using <span style="color:green"> git add *</span>. <br />
+&emsp; &emsp; - Commit it. <br />
+&emsp; &emsp; - Push it. What happens? <br />
 <br />
 
 
