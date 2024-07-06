@@ -38,7 +38,7 @@ For more information about installing the prerequisits, consult the README.md. <
 &emsp; &emsp; - Type: <span style="color:green"> git commit -m "type your commit message"</span>. <br />
 
 7. **Edit *words.txt*, stage, commit:** <br />
-*How:* - Write 3 words starting with A into the file and misspell (at least) one intentionally, save. <br />
+*How:* - Write 3 words starting with A into the file and save. <br />
 &emsp; &emsp; - Stage the file. <br />
 &emsp; &emsp; - Commit the file. <br />
 
@@ -50,7 +50,7 @@ For more information about installing the prerequisits, consult the README.md. <
 &emsp; &emsp; - Check with <span style="color:green"> git status</span>. <br />
 
 10. **Edit *words.txt*, stage, commit:** <br />
-*How:* - Write 3 words starting with A into the file (this time correctly) and save. <br />
+*How:* - Add 3 words starting with B and save. <br />
 &emsp; &emsp; - Stage the file. <br />
 &emsp; &emsp; - Commit the file. <br />
 

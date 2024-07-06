@@ -33,7 +33,8 @@ For more information about installing the prerequisits, consult the README.md. <
 &emsp; &emsp; - To stage specific files, click on the *+* behind the file(s).<br />
 &emsp; &emsp; - To commit, enter a commit message and click on *Commit*. <br />
 &emsp; &emsp; - To push to the remote repository, click on *Sync*. <br />
-*Note:* The *Sync* operation in VSCode performs first a git pull and then a git push operation. <br />
+*Note:* The *Sync* operation in VSCode performs first a git pull and then a git push operation. This is good practice to not overwrite any changes that have been pushed to the remote repository since your last pull. <br />
+If the *Commit* button does not turn into a *Sync* button, click on the 3 dots above the field where you entered the commit message and select first *Pull* and then *Push* from the dropdown menu.
 <br />
 
 
