@@ -81,4 +81,4 @@ If this makes problems, try: <span style="color:green"> git pull remote-reposito
 - About Git fetch: https://www.freecodecamp.org/news/git-pull-remote-branch-how-to-fetch-remote-branches-in-git/
 - Some tips on resolving merge conflicts: https://stackoverflow.com/questions/161813/how-do-i-resolve-merge-conflicts-in-a-git-repository
 - Some troubleshooting for 'repository not found'-error: https://stackoverflow.com/questions/37813568/git-remote-repository-not-found
-- Bonus: Use of ssh key instead of personal access token: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh, https://medium.com/@melvingrooms/using-ssh-to-clone-a-private-hit-repository-9fbe79a589cd
+- Some information about git init --bare: https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-init
