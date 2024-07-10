@@ -12,16 +12,16 @@ For more information about installing the prerequisits, consult the README.md. <
 ## Steps:
 1. **Open a folder** in **VSCode** in which you want to work during the workshop. <br />
 *How:* - *File* tab on top > *Open Folder...* <br />
-&emsp; &emsp; - Trust the authors when asked. <br />
+&emsp; &emsp; - Trust the authors when asked <br />
 
 3. **Open a terminal** in VSCode. (You could also do this in a terminal outside of VSCode) <br />
 *How:* *Terminal* tab on top > *New Termial*
 
 4. **Create folders from the terminal:** <br />
-*How:* - Using only the terminal, check what content you find in your current folder. <br />
-&emsp; &emsp; - Create a new folder named *workshop-playground*. <br />
-&emsp; &emsp; - Move into it. <br />
-&emsp; &emsp; - Create two new folders named *zip-repo* and *cloned-repo*. <br />
+*How:* - Using only the terminal, check what content you find in your current folder <br />
+&emsp; &emsp; - Create a new folder named *workshop-playground* <br />
+&emsp; &emsp; - Move into it <br />
+&emsp; &emsp; - Create two new folders named *zip-repo* and *cloned-repo* <br />
 
 | Function                   | Windows            | Linux              |
 | :--------                  | :-------           | :-------           |
@@ -35,9 +35,8 @@ For more information about installing the prerequisits, consult the README.md. <
 | Remove a directory         | rmdir -p dir-name  | rm -r dir-name     |
 
 4. **Check if Git is working**: <br />
-*How:* Type into the terminal: <br />
-&emsp; &emsp; - <span style="color:green"> git</span>: It should display an overview of possible commands. <br />
-&emsp; &emsp; - <span style="color:green"> git \-\-version</span>: It should display the version of git you have.
+*How:* - Type into the terminal: <span style="color:green"> git</span> (overview of possible commands) <br />
+&emsp; &emsp; - Type: <span style="color:green"> git \-\-version</span> (version of git you have) <br />
 
 5. **Connect git and Github:** <br />
 *How:* Type into the terminal: <br />
@@ -47,27 +46,29 @@ For more information about installing the prerequisits, consult the README.md. <
 
 6. **Download the zip repository** - the *ugly* way:  <br />
 *How:* - Go to the Github repository from step 1 ([(Git-Github-Workshop](https://github.com/IEECR/Git-Github-Workshop/tree/main)) <br />
-&emsp; &emsp; - There is a green button *Code*, click on it and select *Download ZIP*. <br />
-&emsp; &emsp; - Unpack the ZIP folder into the folder named *zip-repo* that you created. <br /> 
+&emsp; &emsp; - There is a green button *Code*, click on it and select *Download ZIP* <br />
+&emsp; &emsp; - Unpack the ZIP folder into the folder named *zip-repo* that you created <br /> 
 
 7. **Clone the repository:** <br />
-*How:* - Go to the Github repository from step 1. <br />
-&emsp; &emsp; - Click on the green *Code* button and copy the repository's URL. <br />
-&emsp; &emsp; - In the terminal, move to *workshop-playground*. <br />
+*How:* - Go to the Github repository from step 1 <br />
+&emsp; &emsp; - Click on the green *Code* button and copy the repository's URL <br />
+&emsp; &emsp; - In the terminal, move to *workshop-playground* <br />
 &emsp; &emsp; - Type into the terminal: <span style="color:green"> git clone url-to-repo cloned-repo </span> <br />
-&emsp; &emsp; - If you have to authenticate with Github and can do it via logging in in the browser, do that. <br />
-&emsp; &emsp; (Otherwise, find some information about Access Tokens below). <br />
+&emsp; &emsp; - If you have to authenticate with Github and can do it via logging in in the browser, do that <br />
+&emsp; &emsp; (Otherwise, find some information about Access Tokens below) <br />
 *Note:* This will clone the repository you indicate to the folder you indicate (in our case *cloned-repo*). You can also leave away the folder name, then a folder with the repository's name is created automatically. <br />
 
 8. **Check if the cloning worked:** <br />
-*How:* - In the terminal, move into the folder of your cloned repository. <br />
-&emsp; &emsp; - Type: <span style="color:green"> git status</span>. What do you see? <br />
+*How:* - In the terminal, move into the folder of your cloned repository <br />
+&emsp; &emsp; - Type: <span style="color:green"> git status</span><br />
+&emsp; &emsp; - What do you see? <br />
 *Note:* git status gives you an overview of the changes tracked by git.
 
 9. **Compare zipped and cloned repository:** <br />
 *How:* - In the terminal, move into the folder *Git-Github-Workshop-main* in your folder *zip-repo*. <br />
-&emsp; &emsp; - Type: <span style="color:green"> git status</span>. What do you see? <br />
-&emsp; &emsp; - Inspect the content of the zipped and cloned repository. <br />
+&emsp; &emsp; - Type: <span style="color:green"> git status</span><br />
+&emsp; &emsp; - What do you see? <br />
+&emsp; &emsp; - Inspect the content of the zipped and cloned repository <br />
  <br />
 
 
