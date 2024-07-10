@@ -31,10 +31,9 @@ For more information about installing the prerequisits, consult the README.md. <
 4. **Use VSCode's Source Control Tab:** <br />
 *Note:* In the Source Control tab (third item in toolbar at left side of VSCode window), you see a section *Changes* and a *M* behind the README.md. This indicates that a file that is tracked by Git has been modified. <br />
 &emsp; &emsp; - To stage specific files, click on the *+* behind the file(s)<br />
-&emsp; &emsp; - To commit, enter a commit message and click on *Commit* <br />
-&emsp; &emsp; - To push to the remote repository, click on *Sync* <br />
-*Note:* The *Sync* operation in VSCode performs first a git pull and then a git push operation. This is good practice to not overwrite any changes that have been pushed to the remote repository since your last pull. <br />
-If the *Commit* button does not turn into a *Sync* button, click on the 3 dots above the field where you entered the commit message and select first *Pull* and then *Push* from the dropdown menu.
+&emsp; &emsp; - To commit: Enter a commit message in the editable text field in the Source Control tab and click on *Commit* <br />
+&emsp; &emsp; - To push to the remote repository: Click on the 3 dots at the top right corner of the Source Control tab and select *Push* from the dropdown menu <br />
+*Note:* VSCode also offers you the *Sync* functionality, which performs first a git pull and then a git push operation. This is good practice to not overwrite any changes that have been pushed to the remote repository since your last pull. Normally, the blue *Commit* button turns into a *Sync* button. In case of a completely empty remote repository however (which is the case if you initiated it without a .gitignore, README, or license file), it is not possible to do git pull and will therefore also yield an error when you select *Sync*.<br />
 <br />
 
 

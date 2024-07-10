@@ -40,8 +40,8 @@ For more information about installing the prerequisits, consult the README.md. <
 
 5. **Connect git and Github:** <br />
 *How:* Type into the terminal: <br />
-<span style="color:green"> git config --global user.email "email_of_your_github_profile"</span>  <br />
-<span style="color:green"> git config --global user.name "your_github_profile_name"</span>  <br />
+<span style="color:green"> git config --global user.email "email-of-your-github-profile"</span>  <br />
+<span style="color:green"> git config --global user.name "your-github-profile-name"</span>  <br />
 *Note:* To check if it worked you can type only <span style="color:green"> git config user.email</span> and likewise for the name <br />
 
 6. **Download the zip repository** - the *ugly* way:  <br />
